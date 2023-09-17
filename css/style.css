@@ -1,0 +1,60 @@
+:root{
+    --color-blue:blue;
+    --border-color:red;
+}
+div {
+    color:var(--color-blue);
+    border-color: var(--border-color);
+  
+}
+
+[type=text]
+{
+    color: blue;
+}
+
+body.blue {
+    color: green !important;
+}
+
+body {
+    /* لعمل متغير واسناده إلى خاصية */
+    --color:red ;
+ color: var(--color); 
+
+}
+
+#main {
+    color: yellow;
+}
+
+.home-page {
+    color: brown;
+}
+/* css flex generationr */
+.bg {
+    background-color: rgb(177, 186, 211);
+    width: 200PX;
+    HEIGHT: 200PX;
+    border-style: dashed;
+    /*border-width: 5px;*/
+    background-color: rgb(177, 186, 211);
+    width: 200PX;
+    HEIGHT: 200PX;
+    border-style: dashed;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border: 10px solid transparent;
+    border-bottom: 10px dashed green;
+    border-radius: 10px;
+
+}
+
+/* 
+في حال وجود مارجن من تحت العنصر الاول ومارجن فوق العنصر الثاني لا يتم جمع الاثنين وانما ياخذ مارجن للأكبر
+*/
+* {
+    /* تثبيت حجم البلوك */
+    box-sizing: border-box;
+}
