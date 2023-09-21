@@ -204,8 +204,83 @@ margin: 0px;
     color: var(--color-white);
 }
 
+.span{
+    color: rgb(202 164 164 / 69%);
+}
 .result-section  .description{
     font-weight: 100;
     font-size: large;
     padding-left: 40px;
+}
+
+@media(min-width:0px) and (max-width:480px)
+{
+    .main{
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.result-section {
+    display: flex;
+    background-color: var(--color-violet-blue);
+    width: 50%;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    align-items: center;
+    padding-bottom: inherit;
+    flex-direction: column;
+    
+}
+.result-section .main-title {
+    margin: 0px;
+}
+.result-section .circl {
+    width: 60%;
+    border-radius: 50%;
+    background-color: var(--color-cobalt-bg-blue);
+    /* box-shadow: 0px 5px 11px 0px var(--color-cobalt-bg-blue); */
+    margin: 0px;
+}
+.result-section .main-value {
+    font-size: xxx-large;
+    color: var(--color-white);
+}
+.result-section .main-title {
+    margin: 0px;
+    padding-top: 3px;
+    color: var(--color-white);
+}
+.result-section .description {
+    margin: 0px;
+}
+.secondary-title {
+padding-top: inherit;
+}
+
+.summary-section {
+  padding-top: 10px;
+}
+.summary-section .link {
+    margin-top: 0px;
+}
+.summary-section .list li {
+    margin-bottom: 9px;
+    padding: 6px 16px;
+}
 }
